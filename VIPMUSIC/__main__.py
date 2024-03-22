@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐍𝐨𝐭 𝐅𝐢𝐥𝐥𝐞𝐝, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐥𝐥 𝐀 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 V2 𝐒𝐞𝐬𝐬𝐢𝐨𝐧🤬")
+        LOGGER(__name__).error("ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ɴᴏᴛ ꜰɪʟʟᴇᴅ, ᴘʟᴇᴀꜱᴇ ꜰɪʟʟᴀ ᴀ ᴘʏʀᴏɢʀᴀᴍ ᴠ2 ꜱᴇꜱꜱɪᴏɴ 😊")
         
     await sudo()
     try:
@@ -41,12 +41,12 @@ async def init():
     await userbot.start()
     await VIP.start()
     await VIP.decorators()
-    LOGGER("VIPMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️\n╚═════ஜ۩۞۩ஜ════╝"
+    LOGGER("VIPMUSIC").info(" @aye_ujjwal "
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("VIPMUSIC").info("                 ╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("VIPMUSIC").info("@aye_ujjwal")
     
 
 if __name__ == "__main__":
